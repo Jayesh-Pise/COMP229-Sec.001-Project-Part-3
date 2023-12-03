@@ -1,0 +1,133 @@
+/* Add this to your existing CSS */
+.course-title {
+  font-size: 40px; 
+  margin: 20px; 
+  text-align: center;
+}
+.coursesCard {
+  padding: 50px 0;
+}
+
+.coursesCard .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.coursesCard .items {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.coursesCard .items:hover {
+  transform: translateY(-10px);
+}
+
+.coursesCard .img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #1eb2a6;
+  padding: 20px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.coursesCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.coursesCard .text {
+  text-align: center;
+}
+
+.coursesCard .text h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.coursesCard .rate {
+  color: #1eb2a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coursesCard .rate i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.coursesCard .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.coursesCard .box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.coursesCard .dimg img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.coursesCard .para h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.coursesCard .details span {
+  color: #1eb2a6;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.coursesCard .price {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.coursesCard h3 {
+  font-weight: 500;
+  color: #1eb2a6;
+  margin: 0;
+}
+
+.coursesCard button {
+  background-color: #1eb2a6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.coursesCard button:hover {
+  background-color: #155d4a;
+}

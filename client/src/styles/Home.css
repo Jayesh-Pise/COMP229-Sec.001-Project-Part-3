@@ -1,0 +1,74 @@
+.hero {
+  background-image: url("../public/images/BG.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 15%;
+  color: #fff;
+}
+
+.hero h1,
+.hero h2,
+.hero p {
+  text-align: left;
+}
+
+.hero h1{
+  font-size: 48px;
+}
+.hero h2{
+  font-size: 38px;
+}
+.hero p{
+  font-size: 20px;
+}
+
+.hero .button {
+  text-align: left;
+}
+
+.button {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.primary-btn,
+.secondary-btn {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px 20px;
+  border: 2px solid #2980b9;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover {
+  background-color: #2980b9;
+  border-color: #3498db;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .margin {
+      height: 40vh;
+  }
+
+  .hero {
+      background-position: right;
+      padding-top: 50%;
+      height: 80vh;
+  }
+
+  .hero .row {
+      width: 100%;
+  }
+}

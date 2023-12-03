@@ -1,0 +1,72 @@
+/* price.css */
+.price {
+  text-align: center;
+}
+
+.pricing-title {
+  font-size: 40px; 
+  margin-bottom: 20px; 
+  text-align: center;
+}
+
+.price .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Adjust as needed */
+  gap: 20px; /* Adjust spacing between cards */
+}
+
+.price .items {
+  flex: 0 0 calc(22% - 10px); /* Adjust the percentage and margin based on your needs */
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  min-height: 28.9rem; /* 462.4px in rem */
+  min-width: 18.22rem; /* 291.487px in rem */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.price h4 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.price h1 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.price h1 span {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #000;
+}
+
+.price p {
+  color: #555;
+  margin: 10px 0;
+}
+
+.price button {
+  padding: 10px 20px;
+  background-color: #1eb2a6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.price button:hover {
+  background-color: #156856;
+}
+
+.price .items:hover {
+  transform: scale(1.05);
+}
